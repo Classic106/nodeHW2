@@ -1,0 +1,17 @@
+{
+  "name": "nodehw2",
+  "version": "1.0.0",
+  "description": "nodehw2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon express_server.js",
+    "startHttp:dev": "nodemon http_server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "fs": "0.0.1-security"
+  }
+}
